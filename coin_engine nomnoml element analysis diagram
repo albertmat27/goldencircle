@@ -1,0 +1,56 @@
+// CoinEngine Game Element Analysis Diagram 
+//  (CoinEngine = our Propane inspired API [I'm playing around with the name - feel free to play too!])
+
+// ----- Level 1 -----
+[CoinEngine Game]->[Game]
+[CoinEngine Game]->[CoinEngine Model]
+
+// ----- Level 2 -----
+[Game]->[BitcoinBreakout]
+
+[CoinEngine Model]->[Viral]
+[CoinEngine Model]->[Scalable]
+[CoinEngine Model]->[Business Model]
+[CoinEngine Model]->[XBT Incentives]
+
+// -----Level 3 ------
+[BitcoinBreakout]->[Simple]
+[BitcoinBreakout]->[Challenging]
+[BitcoinBreakout]->[People Play|#Assumption]
+
+[Scalable]->[Modular]
+[Scalable]->[Secure]
+
+[Viral]->[Competition]
+
+[Business Model]->[Arcade style|Propane]
+[Business Model]->[Contest Style|Jetpack Joyride]
+[Business Model]->[???]
+
+[Business Model]->[Crypto|XBT]
+
+[XBT Incentives]->[People Pay|#Assumption]
+
+// ----- Level 4 -----
+[Simple]->[1 metric for success]
+
+[Challenging]->[Duration: mins.] 
+[Challenging]->[Competition hook]
+
+[Competition]->[Performance Metrics]
+[Competition]->[Stakes]
+
+// ----- Level 5 -----
+[1 metric for success]->[High Score]
+
+[Performance Metrics]->[High Score]
+
+[Stakes]->[Crypto|XBT]
+
+// ----- Level 6 -----
+
+
+
+
+
+
